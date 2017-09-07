@@ -287,7 +287,7 @@ public abstract class ObjectUnderFileSystem extends BaseUnderFileSystem {
     private int mEntriesAdded;
 
     /**
-     * Construct a new {@link DeleteBuffer} instance.
+     * Constructs a new {@link DeleteBuffer} instance.
      */
     public DeleteBuffer() {
       mBatches = new ArrayList<>();
@@ -297,7 +297,7 @@ public abstract class ObjectUnderFileSystem extends BaseUnderFileSystem {
     }
 
     /**
-     * Add a new object to be deleted.
+     * Adds a new object to be deleted.
      *
      * @param path of object
      * @throws IOException if a non-Alluxio error occurs
