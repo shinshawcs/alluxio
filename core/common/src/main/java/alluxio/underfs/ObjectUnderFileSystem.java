@@ -297,7 +297,7 @@ public abstract class ObjectUnderFileSystem extends BaseUnderFileSystem {
     }
 
     /**
-     * Add a new object to be deleted.
+     * Adds a new object to be deleted.
      *
      * @param path of object
      * @throws IOException if a non-Alluxio error occurs
